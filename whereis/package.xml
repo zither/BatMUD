@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.0"><AliasPackage>
+        <Alias isActive="yes" isFolder="no">
+            <name>whereis</name>
+            <script>if Whereis then 
+	Whereis.lookup = true
+	Whereis.roomName = matches[2]
+	send("whereami", true)
+end
+
+</script>
+            <command/>
+            <packageName/>
+            <regex>^whereis (.+)$</regex>
+        </Alias>
+    </AliasPackage><TriggerPackage>
+        <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <name>whereis</name>
+            <script/>
+            <triggerType>0</triggerType>
+            <conditonLineDelta>0</conditonLineDelta>
+            <mStayOpen>0</mStayOpen>
+            <mCommand/>
+            <packageName/>
+            <mFgColor>#ff0000</mFgColor>
+            <mBgColor>#ffff00</mBgColor>
+            <mSoundFile/>
+            <colorTriggerFgColor>#000000</colorTriggerFgColor>
+            <colorTriggerBgColor>#000000</colorTriggerBgColor>
+            <regexCodeList>
+                <string>if Whereis and Whereis.data and Whereis.lookup then return true else return false end</string>
+            </regexCodeList>
+            <regexCodePropertyList>
+                <integer>4</integer>
+            </regexCodePropertyList>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>whereis</name>
+                <script>local area = string.lower(matches[2])
+local x = tonumber(matches[3])
+local y = tonumber(matches[4])
+Whereis:find(area, x, y)
+
+
+
+</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand/>
+                <packageName/>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile/>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^You are.*continent of (\w+)\. \(Coordinates: (\d+)x, (\d+)y;[^\)]*\)</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+        </TriggerGroup>
+    </TriggerPackage><ScriptPackage>
+        <Script isActive="yes" isFolder="no">
+            <name>whereis</name>
+            <packageName/>
+            <script>Whereis = Whereis or {lookup = false, roomName = nil}
+
+function Whereis:init()
+	if not Whereis.data then
+		local jsonDir = getMudletHomeDir() .. "/whereis/loc.json"
+		if not io.exists(jsonDir) then
+			cecho("&lt;red&gt;Locations data not found.\n")
+			return
+		end
+		io.input(jsonDir)
+		Whereis.data = yajl.to_value(io.read("*all"))
+		io.open(jsonDir):close()
+	end
+end
+
+function Whereis:find(area, x, y)
+	if not table.contains(Whereis.data, area) then
+		cecho("&lt;red&gt;Area: " .. area .. " not found.\n")
+		return	
+	end
+
+	local found = false
+	local rooms = Whereis.data[area]
+
+	for name, loc in pairs(rooms) do
+		if name:find(Whereis.roomName) then
+			found = true
+			local roomX = tonumber(loc.x)
+			local roomY = tonumber(loc.y)
+			local distX = math.abs(roomX - x)
+			local distY = math.abs(roomY - y)
+			local distance = math.sqrt(math.pow(distX, 2) + math.pow(distY, 2))
+			local d = (math.asin(distX / distance) / math.pi) * 180
+			local result = 0
+
+			if roomX &gt;= x and roomY &lt;= y then
+				result = d
+			elseif roomX &gt;= x and roomY &gt;= y then
+				result = 180 - d
+			elseif roomX &lt;= x and roomY &gt;= y then	
+				result = 180 + d
+			elseif roomX &lt;= x and roomY &lt;= y then
+				result = 360 - d
+			end
+
+			local hour = math.floor(result / 30)
+			local minute = math.floor((result % 30) * 0.5)
+			cecho(string.format(
+				"\n&lt;green&gt;%s is at %d:%d o'clock, %d steps away.\n", 
+				name, hour, minute, math.floor(distance)
+			))
+
+			WorldMap:showMap(area, x, y, roomX, roomY)
+		end
+	end
+
+	if not found then
+		cecho(string.format("\n&lt;red&gt;%s not found in %s.\n", Whereis.roomName, area))
+
+		local others = {}
+		for continent, rooms in pairs(Whereis.data) do
+			if continent ~= area then
+				for name, location in pairs(rooms) do
+					if name:find(Whereis.roomName) then
+						table.insert(
+							others, 
+							{name = name, continent = continent, x = location.x, y = location.y}
+						)
+					end
+				end
+			end
+		end
+
+		if not table.is_empty(others) then	
+			cecho("\n&lt;green&gt;Maybe you want to find: \n")
+			for _, room in pairs(rooms) do
+				cecho(string.format(
+					"&lt;green&gt;%s(%s): %sx, %sy\n", 
+					room.name, room.continent, room.x, room.y
+				))
+			end
+		end
+	end
+
+	Whereis.lookup = false
+	Whereis.roomName = nil
+end
+
+Whereis:init()
+
+
+---- WorldMap Scripts----
+
+WorldMap = WorldMap or {}
+WorldMap.currentContinent = nil
+WorldMap.continents = {
+	laenor = {width = 827, height = 781},
+	desolathya = {width = 540, height = 530}, 
+	furnachia = {width = 440, height = 480}, 
+	lucentium = {width = 700, height = 500}, 
+	rothikgen = {width = 480, height = 480}
+}
+
+function WorldMap:init()
+	if not WorldMap.container then
+		WorldMap.container = Geyser.Container:new({
+			name="WorldMap.container",
+		}, main)
+
+		for k, v in pairs(WorldMap.continents) do
+			WorldMap[k] = Geyser.Label:new({
+				name = "WorldMap." .. k,
+				width = v.width .. "px", height = v.height .. "px"
+			}, WorldMap.container)
+			WorldMap[k]:setBackgroundImage(getMudletHomeDir() .. "/whereis/" .. k .. ".gif")
+			WorldMap[k]:setClickCallback("_WorldMapHide")
+			WorldMap[k]:hide()
+		end
+
+		WorldMap.container:hide()
+	end
+end
+
+function WorldMap:show()
+	if not WorldMap.container then
+		initWorldMap()
+	end
+	if WorldMap.currentContinent then
+		WorldMap.currentContinent:show()
+		WorldMap.container:show()
+	end
+end
+
+function WorldMap:hide()
+	if WorldMap.container then
+		WorldMap.currentContinent:hide()
+		WorldMap.currentContinent = nil
+		WorldMap.container:hide()
+	end
+end
+
+function _WorldMapHide()
+	WorldMap:hide()
+end
+
+function WorldMap:setTarget(continent, X, Y)
+	WorldMap.target = Geyser.Label:new({
+		name = "WorldMap.target",
+		width = "10px", height = "10px",
+		x = (X - 5) .. "px", y = (Y - 5) .. "px",
+	}, continent)
+	WorldMap.target:setColor(255,0,0,200)
+	WorldMap.target:setStyleSheet([[
+		border:2px solid #ff0000;
+		border-radius:5px;
+  	]])
+end
+
+function WorldMap:setPlayer(continent, locX, locY)
+	WorldMap.player = Geyser.Label:new({
+		name = "WorldMap.player",
+		width = "10px", height = "10px",
+		x = (locX - 5) .. "px", y = (locY - 5) .. "px",
+	}, continent)
+	WorldMap.player:setColor(0,255,0,200)
+	WorldMap.player:setStyleSheet([[
+		border:2px solid #00ff00;
+		border-radius:5px;
+  	]])
+end
+
+function WorldMap:showMap(continent, px, py, tx, ty)
+	WorldMap:init()
+	WorldMap.currentContinent = WorldMap[continent]
+	WorldMap:setTarget(WorldMap[continent], tx, ty)
+	WorldMap:setPlayer(WorldMap[continent], px, py)	
+	WorldMap:show()
+end
+</script>
+            <eventHandlerList/>
+        </Script>
+    </ScriptPackage></MudletPackage>

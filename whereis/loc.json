@@ -1,1788 +1,2466 @@
 {
     "laenor": {
+        "arelium": {
+            "x": 365,
+            "y": 471
+        },
+        "pleasantville": {
+            "x": 339,
+            "y": 494
+        },
+        "vendace shore": {
+            "x": 273,
+            "y": 406
+        },
         "100 acre forest": {
-            "x": "341",
-            "y": "489"
-        },
-        "apple orchard": {
-            "x": "354",
-            "y": "497"
-        },
-        "arska's hut": {
-            "x": "422",
-            "y": "524"
-        },
-        "asylum": {
-            "x": "348",
-            "y": "474"
+            "x": 341,
+            "y": 489
         },
         "abandoned valley": {
-            "x": "462",
-            "y": "292"
+            "x": 462,
+            "y": 292
         },
         "ancient ruins": {
-            "x": "309",
-            "y": "335"
+            "x": 309,
+            "y": 335
+        },
+        "apple orchard": {
+            "x": 354,
+            "y": 497
+        },
+        "arska's hut": {
+            "x": 422,
+            "y": 524
         },
         "arthur": {
-            "x": "311",
-            "y": "404"
+            "x": 311,
+            "y": 404
+        },
+        "asylum": {
+            "x": 348,
+            "y": 474
         },
         "beastlands": {
-            "x": "524",
-            "y": "606"
+            "x": 524,
+            "y": 606
         },
         "bigeaul": {
-            "x": "528",
-            "y": "429"
+            "x": 528,
+            "y": 429
         },
         "blackteeth mountains": {
-            "x": "580",
-            "y": "185"
+            "x": 580,
+            "y": 185
         },
         "bunny valley": {
-            "x": "559",
-            "y": "412"
+            "x": 559,
+            "y": 412
         },
         "butterfly farm": {
-            "x": "439",
-            "y": "278"
-        },
-        "city pleasantville": {
-            "x": "339",
-            "y": "494"
+            "x": 439,
+            "y": 278
         },
         "chessboard": {
-            "x": "517",
-            "y": "593"
-        },
-        "crack": {
-            "x": "474",
-            "y": "574"
-        },
-        "crescent tower": {
-            "x": "456",
-            "y": "616"
-        },
-        "city vendace shore": {
-            "x": "273",
-            "y": "406"
+            "x": 517,
+            "y": 593
         },
         "circus": {
-            "x": "312",
-            "y": "460"
+            "x": 312,
+            "y": 460
         },
         "conifer forest": {
-            "x": "228",
-            "y": "476"
+            "x": 228,
+            "y": 476
         },
-        "city arelium": {
-            "x": "365",
-            "y": "471"
+        "crack": {
+            "x": 474,
+            "y": 574
         },
-        "drawbridge": {
-            "x": "490",
-            "y": "469"
-        },
-        "dunedain's mansion": {
-            "x": "538",
-            "y": "167"
+        "crescent tower": {
+            "x": 456,
+            "y": 616
         },
         "dark castle": {
-            "x": "340",
-            "y": "578"
+            "x": 340,
+            "y": 578
         },
         "digga's domain": {
-            "x": "289",
-            "y": "474"
+            "x": 289,
+            "y": 474
         },
         "dortlewall": {
-            "x": "580",
-            "y": "379"
+            "x": 580,
+            "y": 379
+        },
+        "drawbridge": {
+            "x": 490,
+            "y": 469
+        },
+        "dunedain's mansion": {
+            "x": 538,
+            "y": 167
         },
         "dungeon": {
-            "x": "363",
-            "y": "485"
+            "x": 363,
+            "y": 485
         },
         "enc drow": {
-            "x": "327",
-            "y": "470"
+            "x": 327,
+            "y": 470
         },
         "enc valar": {
-            "x": "344",
-            "y": "481"
+            "x": 344,
+            "y": 481
         },
         "elven village": {
-            "x": "727",
-            "y": "135"
-        },
-        "faerie island": {
-            "x": "270",
-            "y": "322"
-        },
-        "forest of moonrind": {
-            "x": "571",
-            "y": "484"
+            "x": 727,
+            "y": 135
         },
         "ferry\/laenor\/daerwon": {
-            "x": "301",
-            "y": "361"
+            "x": 301,
+            "y": 361
         },
         "faerie forest": {
-            "x": "343",
-            "y": "88"
+            "x": 343,
+            "y": 88
+        },
+        "faerie island": {
+            "x": 270,
+            "y": 322
         },
         "farmhouse": {
-            "x": "387",
-            "y": "528"
+            "x": 387,
+            "y": 528
         },
         "forest of legolas": {
-            "x": "532",
-            "y": "263"
+            "x": 532,
+            "y": 263
+        },
+        "forest of moonrind": {
+            "x": 571,
+            "y": 484
         },
         "foul's creche": {
-            "x": "621",
-            "y": "103"
-        },
-        "guild archer": {
-            "x": "391",
-            "y": "292"
-        },
-        "guild channeller": {
-            "x": "505",
-            "y": "483"
-        },
-        "guild crimson": {
-            "x": "490",
-            "y": "299"
-        },
-        "guild druid": {
-            "x": "453",
-            "y": "559"
-        },
-        "guild explorer": {
-            "x": "310",
-            "y": "381"
-        },
-        "guild knight": {
-            "x": "465",
-            "y": "504"
-        },
-        "guild mage (magical)": {
-            "x": "699",
-            "y": "701"
-        },
-        "guild ranger": {
-            "x": "340",
-            "y": "554"
-        },
-        "guild runemage (east)": {
-            "x": "295",
-            "y": "608"
-        },
-        "guild runemage (south)": {
-            "x": "404",
-            "y": "242"
-        },
-        "guild runemage (west)": {
-            "x": "642",
-            "y": "415"
-        },
-        "guild sailor": {
-            "x": "352",
-            "y": "468"
-        },
-        "guild squire&cavalier": {
-            "x": "335",
-            "y": "460"
-        },
-        "guild tarmalen (summer)": {
-            "x": "572",
-            "y": "403"
-        },
-        "gnome airship": {
-            "x": "406",
-            "y": "596"
-        },
-        "goddess garden": {
-            "x": "690",
-            "y": "408"
-        },
-        "granny's house": {
-            "x": "317",
-            "y": "466"
-        },
-        "guard's gap": {
-            "x": "605",
-            "y": "101"
-        },
-        "guild monk special (lae)": {
-            "x": "405",
-            "y": "294"
+            "x": 621,
+            "y": 103
         },
         "gauntlet event": {
-            "x": "350",
-            "y": "242"
+            "x": 350,
+            "y": 242
         },
-        "hunt master": {
-            "x": "434",
-            "y": "522"
+        "gnome airship": {
+            "x": 406,
+            "y": 596
+        },
+        "goddess garden": {
+            "x": 690,
+            "y": 408
+        },
+        "granny's house": {
+            "x": 317,
+            "y": 466
+        },
+        "guard's gap": {
+            "x": 605,
+            "y": 101
         },
         "hugoville": {
-            "x": "594",
-            "y": "467"
+            "x": 594,
+            "y": 467
         },
-        "ivory tower": {
-            "x": "508",
-            "y": "347"
+        "hunt master": {
+            "x": 434,
+            "y": 522
         },
         "iron mine": {
-            "x": "613",
-            "y": "410"
+            "x": 613,
+            "y": 410
+        },
+        "ivory tower": {
+            "x": 508,
+            "y": 347
         },
         "ix'ixixiblat": {
-            "x": "363",
-            "y": "133"
+            "x": 363,
+            "y": 133
         },
         "kender mansion": {
-            "x": "542",
-            "y": "509"
+            "x": 542,
+            "y": 509
         },
         "kevin's watch": {
-            "x": "614",
-            "y": "100"
+            "x": 614,
+            "y": 100
         },
         "kilrathi": {
-            "x": "419",
-            "y": "539"
+            "x": 419,
+            "y": 539
+        },
+        "lae-unknown #1": {
+            "x": 525,
+            "y": 627
         },
         "land of anarchy": {
-            "x": "517",
-            "y": "526"
-        },
-        "lae-unknown #1 (closed)": {
-            "x": "525",
-            "y": "627"
+            "x": 517,
+            "y": 526
         },
         "lonely inn": {
-            "x": "519",
-            "y": "553"
-        },
-        "monster river cavalier": {
-            "x": "517",
-            "y": "647"
+            "x": 519,
+            "y": 553
         },
         "mesme": {
-            "x": "298",
-            "y": "122"
+            "x": 298,
+            "y": 122
         },
         "misty forest": {
-            "x": "467",
-            "y": "572"
+            "x": 467,
+            "y": 572
         },
         "mithil stonedown": {
-            "x": "613",
-            "y": "102"
+            "x": 613,
+            "y": 102
         },
         "mountain dwarves": {
-            "x": "310",
-            "y": "556"
+            "x": 310,
+            "y": 556
         },
         "mountaineer cottage": {
-            "x": "594",
-            "y": "367"
+            "x": 594,
+            "y": 367
         },
         "newberry park": {
-            "x": "368",
-            "y": "491"
+            "x": 368,
+            "y": 491
         },
         "newbie forest": {
-            "x": "238",
-            "y": "470"
-        },
-        "newbie mountain": {
-            "x": "281",
-            "y": "479"
-        },
-        "newbie playground": {
-            "x": "388",
-            "y": "511"
+            "x": 238,
+            "y": 470
         },
         "newbie mines": {
-            "x": "306",
-            "y": "486"
+            "x": 306,
+            "y": 486
+        },
+        "newbie mountain": {
+            "x": 281,
+            "y": 479
+        },
+        "newbie playground": {
+            "x": 388,
+            "y": 511
         },
         "newbie taskmaster": {
-            "x": "340",
-            "y": "498"
+            "x": 340,
+            "y": 498
         },
         "oakvale": {
-            "x": "288",
-            "y": "433"
-        },
-        "old convent": {
-            "x": "302",
-            "y": "497"
-        },
-        "orc scouts": {
-            "x": "339",
-            "y": "468"
+            "x": 288,
+            "y": 433
         },
         "old oak forest": {
-            "x": "319",
-            "y": "462"
+            "x": 319,
+            "y": 462
         },
-        "petting zoo": {
-            "x": "357",
-            "y": "482"
+        "old convent": {
+            "x": 302,
+            "y": 497
         },
-        "plura's castle": {
-            "x": "365",
-            "y": "294"
+        "orc scouts": {
+            "x": 339,
+            "y": 468
         },
         "peacock farm": {
-            "x": "463",
-            "y": "520"
+            "x": 463,
+            "y": 520
         },
-        "revelstone": {
-            "x": "608",
-            "y": "99"
+        "petting zoo": {
+            "x": 357,
+            "y": 482
+        },
+        "plura's castle": {
+            "x": 365,
+            "y": 294
         },
         "rainbow cloak": {
-            "x": "518",
-            "y": "508"
+            "x": 518,
+            "y": 508
         },
-        "shrine dwarf": {
-            "x": "561",
-            "y": "303"
-        },
-        "shrine elf": {
-            "x": "405",
-            "y": "550"
-        },
-        "shrine ent": {
-            "x": "621",
-            "y": "455"
-        },
-        "shrine hobbit": {
-            "x": "398",
-            "y": "570"
-        },
-        "shrine human": {
-            "x": "474",
-            "y": "506"
-        },
-        "shrine leprechaun": {
-            "x": "256",
-            "y": "585"
-        },
-        "shrine sprite": {
-            "x": "613",
-            "y": "116"
-        },
-        "shrine tinmen": {
-            "x": "510",
-            "y": "310"
-        },
-        "shrine zombie": {
-            "x": "394",
-            "y": "319"
-        },
-        "ss wihne+": {
-            "x": "489",
-            "y": "303"
-        },
-        "sewers of silverfang": {
-            "x": "614",
-            "y": "634"
-        },
-        "simon's hut": {
-            "x": "447",
-            "y": "241"
-        },
-        "small meadow": {
-            "x": "385",
-            "y": "518"
-        },
-        "stone circle": {
-            "x": "292",
-            "y": "517"
-        },
-        "shrine animist totem (lae)": {
-            "x": "295",
-            "y": "408"
-        },
-        "ss suicidal+": {
-            "x": "299",
-            "y": "397"
+        "revelstone": {
+            "x": 608,
+            "y": 99
         },
         "school of lumine": {
-            "x": "459",
-            "y": "533"
+            "x": 459,
+            "y": 533
         },
         "secladin": {
-            "x": "577",
-            "y": "681"
+            "x": 577,
+            "y": 681
         },
-        "temple of sarku": {
-            "x": "652",
-            "y": "358"
+        "sewers of silverfang": {
+            "x": 614,
+            "y": 634
         },
-        "temple of the winds": {
-            "x": "590",
-            "y": "428"
+        "simon's hut": {
+            "x": 447,
+            "y": 241
         },
-        "trainer barb (lae)": {
-            "x": "297",
-            "y": "513"
+        "small meadow": {
+            "x": 385,
+            "y": 518
         },
-        "trainer priest (lae)": {
-            "x": "670",
-            "y": "90"
+        "stone circle": {
+            "x": 292,
+            "y": 517
         },
         "temple of las": {
-            "x": "546",
-            "y": "632"
+            "x": 546,
+            "y": 632
+        },
+        "temple of sarku": {
+            "x": 652,
+            "y": 358
+        },
+        "temple of the winds": {
+            "x": 590,
+            "y": 428
         },
         "tunnel": {
-            "x": "533",
-            "y": "479"
+            "x": 533,
+            "y": 479
         },
         "tyr farwyn": {
-            "x": "596",
-            "y": "411"
+            "x": 596,
+            "y": 411
         },
         "urvile tree": {
-            "x": "618",
-            "y": "98"
+            "x": 618,
+            "y": 98
         },
         "village of stouby": {
-            "x": "516",
-            "y": "585"
+            "x": 516,
+            "y": 585
         },
         "wibble village": {
-            "x": "351",
-            "y": "479"
+            "x": 351,
+            "y": 479
         },
         "wrebie forest": {
-            "x": "410",
-            "y": "533"
+            "x": 410,
+            "y": 533
         },
         "wrecked ship hull": {
-            "x": "264",
-            "y": "408"
+            "x": 264,
+            "y": 408
         },
         "zoy's inn": {
-            "x": "516",
-            "y": "632"
-        }
-    },
-    "furnachia": {
-        "9th plane of hell": {
-            "x": "130",
-            "y": "248"
-        },
-        "abandoned house": {
-            "x": "299",
-            "y": "112"
-        },
-        "abandoned temple": {
-            "x": "135",
-            "y": "204"
-        },
-        "atlantis": {
-            "x": "68",
-            "y": "459"
-        },
-        "are fortress (east)": {
-            "x": "333",
-            "y": "260"
-        },
-        "are fortress (south)": {
-            "x": "250",
-            "y": "430"
-        },
-        "are fortress (west)": {
-            "x": "68",
-            "y": "259"
-        },
-        "abandoned village": {
-            "x": "141",
-            "y": "159"
-        },
-        "ancona manor": {
-            "x": "189",
-            "y": "88"
-        },
-        "black marble altar": {
-            "x": "158",
-            "y": "205"
-        },
-        "cartwheel": {
-            "x": "192",
-            "y": "143"
-        },
-        "castle brantis": {
-            "x": "119",
-            "y": "168"
-        },
-        "castle firefox": {
-            "x": "417",
-            "y": "174"
-        },
-        "corabandor": {
-            "x": "297",
-            "y": "299"
-        },
-        "city rilynt'tar": {
-            "x": "197",
-            "y": "85"
-        },
-        "darkwood": {
-            "x": "176",
-            "y": "161"
-        },
-        "domgroth's mansion": {
-            "x": "220",
-            "y": "95"
-        },
-        "drow tower": {
-            "x": "199",
-            "y": "81"
-        },
-        "elven outpost": {
-            "x": "165",
-            "y": "10"
-        },
-        "enchanted forest": {
-            "x": "166",
-            "y": "244"
-        },
-        "ferry\/furnachia": {
-            "x": "190",
-            "y": "81"
-        },
-        "forest of the moon": {
-            "x": "167",
-            "y": "168"
-        },
-        "guild mage (fire)": {
-            "x": "405",
-            "y": "308"
-        },
-        "guild wanderers": {
-            "x": "311",
-            "y": "242"
-        },
-        "guild lord of chaos": {
-            "x": "205",
-            "y": "120"
-        },
-        "guild monk special (furn)": {
-            "x": "223",
-            "y": "234"
-        },
-        "haunted mansion": {
-            "x": "187",
-            "y": "116"
-        },
-        "jungle cave": {
-            "x": "251",
-            "y": "346"
-        },
-        "kutanakor east": {
-            "x": "171",
-            "y": "236"
-        },
-        "kutanakor west": {
-            "x": "131",
-            "y": "236"
-        },
-        "monster badlands cavalier": {
-            "x": "277",
-            "y": "123"
-        },
-        "necromancer's swamp": {
-            "x": "270",
-            "y": "135"
-        },
-        "ndoki": {
-            "x": "168",
-            "y": "331"
-        },
-        "nocilis valley": {
-            "x": "200",
-            "y": "201"
-        },
-        "old fort": {
-            "x": "77",
-            "y": "269"
-        },
-        "orc samurai": {
-            "x": "209",
-            "y": "95"
-        },
-        "orthanc": {
-            "x": "310",
-            "y": "220"
-        },
-        "plakhstan": {
-            "x": "327",
-            "y": "127"
-        },
-        "perin's": {
-            "x": "272",
-            "y": "175"
-        },
-        "priest guild special place": {
-            "x": "298",
-            "y": "336"
-        },
-        "rillion's castle": {
-            "x": "301",
-            "y": "185"
-        },
-        "rounce": {
-            "x": "76",
-            "y": "108"
-        },
-        "shrine barsoomian": {
-            "x": "258",
-            "y": "394"
-        },
-        "shrine demon": {
-            "x": "200",
-            "y": "235"
-        },
-        "shrine doppelganger": {
-            "x": "43",
-            "y": "172"
-        },
-        "shrine draconian": {
-            "x": "364",
-            "y": "62"
-        },
-        "shrine drow": {
-            "x": "132",
-            "y": "241"
-        },
-        "shrine duergar": {
-            "x": "221",
-            "y": "202"
-        },
-        "shrine orc": {
-            "x": "325",
-            "y": "173"
-        },
-        "shrine spider #1": {
-            "x": "288",
-            "y": "180"
-        },
-        "shrine spider #2": {
-            "x": "182",
-            "y": "149"
-        },
-        "shrine spider #3": {
-            "x": "172",
-            "y": "300"
-        },
-        "shrine spider #4": {
-            "x": "74",
-            "y": "94"
-        },
-        "shrine spider #5": {
-            "x": "230",
-            "y": "234"
-        },
-        "shrine spider #6": {
-            "x": "49",
-            "y": "477"
-        },
-        "shrine spider #7": {
-            "x": "98",
-            "y": "370"
-        },
-        "shrine spider #8": {
-            "x": "338",
-            "y": "348"
-        },
-        "shrine troll": {
-            "x": "297",
-            "y": "231"
-        },
-        "shrine vampire": {
-            "x": "333",
-            "y": "193"
-        },
-        "secret jungle": {
-            "x": "321",
-            "y": "339"
-        },
-        "steaming cavern": {
-            "x": "397",
-            "y": "304"
-        },
-        "shrine animist totem (furn)": {
-            "x": "143",
-            "y": "161"
-        },
-        "temple of the twisted prophecies": {
-            "x": "98",
-            "y": "205"
-        },
-        "trilloch zoo": {
-            "x": "177",
-            "y": "297"
-        },
-        "trainer barb (furn)": {
-            "x": "200",
-            "y": "118"
-        },
-        "trainer monk (furn)": {
-            "x": "195",
-            "y": "104"
-        },
-        "trainer ranger (furn)": {
-            "x": "204",
-            "y": "95"
-        },
-        "temple of chaos": {
-            "x": "220",
-            "y": "107"
-        },
-        "temple of aljerak": {
-            "x": "279",
-            "y": "214"
-        },
-        "under volcano": {
-            "x": "214",
-            "y": "155"
-        },
-        "volcano": {
-            "x": "289",
-            "y": "146"
-        },
-        "wanderer maze": {
-            "x": "312",
-            "y": "237"
-        },
-        "zonni swamp": {
-            "x": "143",
-            "y": "305"
-        }
-    },
-    "lucentium": {
-        "a tale of two towers": {
-            "x": "338",
-            "y": "40"
-        },
-        "afkadel-el-sha": {
-            "x": "87",
-            "y": "156"
-        },
-        "anthill": {
-            "x": "342",
-            "y": "140"
-        },
-        "astacia": {
-            "x": "295",
-            "y": "126"
-        },
-        "brotherhood of sorcery": {
-            "x": "147",
-            "y": "374"
-        },
-        "city silver lake": {
-            "x": "540",
-            "y": "240"
-        },
-        "catfolk tree": {
-            "x": "234",
-            "y": "151"
-        },
-        "cornfields": {
-            "x": "392",
-            "y": "73"
-        },
-        "creepy house": {
-            "x": "292",
-            "y": "268"
-        },
-        "catfolk shipyard": {
-            "x": "336",
-            "y": "181"
-        },
-        "clouds above lor": {
-            "x": "357",
-            "y": "187"
-        },
-        "colosseum": {
-            "x": "219",
-            "y": "88"
-        },
-        "city lorenchia": {
-            "x": "413",
-            "y": "153"
-        },
-        "dah'bec": {
-            "x": "410",
-            "y": "92"
-        },
-        "door to the past": {
-            "x": "400",
-            "y": "248"
-        },
-        "duzelton": {
-            "x": "243",
-            "y": "195"
-        },
-        "earth tower": {
-            "x": "123",
-            "y": "288"
-        },
-        "ferry\/lucentium": {
-            "x": "397",
-            "y": "15"
-        },
-        "fire tower": {
-            "x": "126",
-            "y": "291"
-        },
-        "fraggle village": {
-            "x": "131",
-            "y": "195"
-        },
-        "guild alchemist": {
-            "x": "436",
-            "y": "151"
-        },
-        "guild mage (elec)": {
-            "x": "589",
-            "y": "398"
-        },
-        "guild mage (poison)": {
-            "x": "266",
-            "y": "344"
-        },
-        "guild monk": {
-            "x": "392",
-            "y": "148"
-        },
-        "guild tarmalen (autumn)": {
-            "x": "262",
-            "y": "210"
-        },
-        "guild tiger (luc)": {
-            "x": "370",
-            "y": "182"
-        },
-        "guild loc: tzarakk": {
-            "x": "407",
-            "y": "181"
-        },
-        "guild monk special (luc)": {
-            "x": "201",
-            "y": "456"
-        },
-        "great central desert": {
-            "x": "99",
-            "y": "114"
-        },
-        "harun-al-mar & harun-al-kor": {
-            "x": "79",
-            "y": "138"
-        },
-        "iron gate": {
-            "x": "285",
-            "y": "45"
-        },
-        "ice tower": {
-            "x": "120",
-            "y": "291"
-        },
-        "jondalar's castle": {
-            "x": "535",
-            "y": "92"
-        },
-        "kara-tur": {
-            "x": "49",
-            "y": "250"
-        },
-        "kharim-el-main": {
-            "x": "95",
-            "y": "141"
-        },
-        "kundar-el-alam": {
-            "x": "91",
-            "y": "132"
-        },
-        "land of the overworld": {
-            "x": "431",
-            "y": "205"
-        },
-        "lands of lore": {
-            "x": "411",
-            "y": "50"
-        },
-        "lanzia": {
-            "x": "426",
-            "y": "81"
-        },
-        "monster jungle cavalier": {
-            "x": "215",
-            "y": "294"
-        },
-        "marble-sanded beach": {
-            "x": "373",
-            "y": "235"
-        },
-        "mirror mine": {
-            "x": "144",
-            "y": "255"
-        },
-        "oasis": {
-            "x": "113",
-            "y": "98"
-        },
-        "obelisk": {
-            "x": "263",
-            "y": "59"
-        },
-        "observatory foyer": {
-            "x": "393",
-            "y": "482"
-        },
-        "oystria": {
-            "x": "441",
-            "y": "278"
-        },
-        "paladin stronghold": {
-            "x": "446",
-            "y": "148"
-        },
-        "public gardens": {
-            "x": "412",
-            "y": "137"
-        },
-        "pyran": {
-            "x": "196",
-            "y": "305"
-        },
-        "shrine catfolk": {
-            "x": "244",
-            "y": "136"
-        },
-        "shrine centaur": {
-            "x": "396",
-            "y": "42"
-        },
-        "shrine cromagnon": {
-            "x": "316",
-            "y": "254"
-        },
-        "shrine cyclops": {
-            "x": "332",
-            "y": "278"
-        },
-        "shrine lizardman": {
-            "x": "255",
-            "y": "101"
-        },
-        "shrine merfolk": {
-            "x": "542",
-            "y": "456"
-        },
-        "shrine satyr": {
-            "x": "335",
-            "y": "130"
-        },
-        "shrine thrikhren": {
-            "x": "393",
-            "y": "194"
-        },
-        "shrine titan": {
-            "x": "241",
-            "y": "227"
-        },
-        "ss kirahvi+": {
-            "x": "363",
-            "y": "157"
-        },
-        "satyr forest": {
-            "x": "337",
-            "y": "114"
-        },
-        "ship navigators": {
-            "x": "631",
-            "y": "97"
-        },
-        "shipwreck": {
-            "x": "480",
-            "y": "156"
-        },
-        "stagira": {
-            "x": "361",
-            "y": "116"
-        },
-        "the lost pyramid": {
-            "x": "224",
-            "y": "45"
-        },
-        "trilloch's tower": {
-            "x": "656",
-            "y": "139"
-        },
-        "trainer barb (luc)": {
-            "x": "382",
-            "y": "153"
-        },
-        "trainer priest (luc)": {
-            "x": "250",
-            "y": "298"
-        },
-        "trainer ranger (luc)": {
-            "x": "411",
-            "y": "165"
-        },
-        "troglodyte hut": {
-            "x": "84",
-            "y": "262"
-        },
-        "troglodyte village": {
-            "x": "87",
-            "y": "257"
-        },
-        "underdark": {
-            "x": "382",
-            "y": "151"
-        },
-        "village of shrea": {
-            "x": "384",
-            "y": "99"
-        },
-        "valley of the kings": {
-            "x": "63",
-            "y": "148"
-        },
-        "whirlpool": {
-            "x": "412",
-            "y": "204"
-        },
-        "wind tower": {
-            "x": "123",
-            "y": "294"
+            "x": 516,
+            "y": 632
+        },
+        "archer": {
+            "x": 391,
+            "y": 292
+        },
+        "channeller": {
+            "x": 505,
+            "y": 483
+        },
+        "crimson": {
+            "x": 490,
+            "y": 299
+        },
+        "druid": {
+            "x": 453,
+            "y": 559
+        },
+        "explorer": {
+            "x": 310,
+            "y": 381
+        },
+        "knight": {
+            "x": 465,
+            "y": 504
+        },
+        "mage (magical)": {
+            "x": 699,
+            "y": 701
+        },
+        "monk special (lae)": {
+            "x": 405,
+            "y": 294
+        },
+        "ranger": {
+            "x": 340,
+            "y": 554
+        },
+        "runemage (east)": {
+            "x": 295,
+            "y": 608
+        },
+        "runemage (south)": {
+            "x": 404,
+            "y": 242
+        },
+        "runemage (west)": {
+            "x": 642,
+            "y": 415
+        },
+        "sailor": {
+            "x": 352,
+            "y": 468
+        },
+        "squire&cavalier": {
+            "x": 335,
+            "y": 460
+        },
+        "tarmalen (summer)": {
+            "x": 572,
+            "y": 403
+        },
+        "barb (lae)": {
+            "x": 297,
+            "y": 513
+        },
+        "priest (lae)": {
+            "x": 670,
+            "y": 90
+        },
+        "animist totem (lae)": {
+            "x": 295,
+            "y": 408
+        },
+        "dwarf": {
+            "x": 561,
+            "y": 303
+        },
+        "elf": {
+            "x": 405,
+            "y": 550
+        },
+        "ent": {
+            "x": 621,
+            "y": 455
+        },
+        "hobbit": {
+            "x": 398,
+            "y": 570
+        },
+        "human": {
+            "x": 474,
+            "y": 506
+        },
+        "leprechaun": {
+            "x": 256,
+            "y": 585
+        },
+        "sprite": {
+            "x": 613,
+            "y": 116
+        },
+        "tinmen": {
+            "x": 510,
+            "y": 310
+        },
+        "zombie": {
+            "x": 394,
+            "y": 319
+        },
+        "suicidal+": {
+            "x": 299,
+            "y": 397
+        },
+        "wihne+": {
+            "x": 489,
+            "y": 303
+        },
+        "river cavalier": {
+            "x": 517,
+            "y": 647
+        },
+        "absolon": {
+            "x": 467,
+            "y": 599
+        },
+        "ankh-morpork": {
+            "x": 444,
+            "y": 518
+        },
+        "avalon": {
+            "x": 302,
+            "y": 433
+        },
+        "babylon": {
+            "x": 376,
+            "y": 501
+        },
+        "bat-suburb": {
+            "x": 535,
+            "y": 418
+        },
+        "chairman": {
+            "x": 284,
+            "y": 407
+        },
+        "cloudcastle": {
+            "x": 587,
+            "y": 405
+        },
+        "darkhold": {
+            "x": 536,
+            "y": 467
+        },
+        "darkness": {
+            "x": 613,
+            "y": 390
+        },
+        "demonia": {
+            "x": 482,
+            "y": 455
+        },
+        "desolation": {
+            "x": 595,
+            "y": 492
+        },
+        "dionysus": {
+            "x": 481,
+            "y": 469
+        },
+        "downunder": {
+            "x": 475,
+            "y": 307
+        },
+        "dragonbane": {
+            "x": 362,
+            "y": 122
+        },
+        "eternia": {
+            "x": 453,
+            "y": 305
+        },
+        "evergreen": {
+            "x": 444,
+            "y": 295
+        },
+        "farmville": {
+            "x": 464,
+            "y": 301
+        },
+        "fightclub": {
+            "x": 299,
+            "y": 384
+        },
+        "garden": {
+            "x": 512,
+            "y": 396
+        },
+        "gothamcity": {
+            "x": 298,
+            "y": 406
+        },
+        "graveyard": {
+            "x": 498,
+            "y": 443
+        },
+        "hamppukaupunki": {
+            "x": 539,
+            "y": 496
+        },
+        "innsmouth": {
+            "x": 442,
+            "y": 507
+        },
+        "isca": {
+            "x": 304,
+            "y": 420
+        },
+        "joensuu": {
+            "x": 261,
+            "y": 435
+        },
+        "kalia": {
+            "x": 502,
+            "y": 356
+        },
+        "kapilavastu": {
+            "x": 318,
+            "y": 393
+        },
+        "kepustan": {
+            "x": 519,
+            "y": 413
+        },
+        "laiduin": {
+            "x": 533,
+            "y": 601
+        },
+        "lapland": {
+            "x": 426,
+            "y": 301
+        },
+        "macedonia": {
+            "x": 312,
+            "y": 365
+        },
+        "manhole": {
+            "x": 630,
+            "y": 752
+        },
+        "melusine": {
+            "x": 616,
+            "y": 425
+        },
+        "midian": {
+            "x": 378,
+            "y": 488
+        },
+        "mielenrauha": {
+            "x": 604,
+            "y": 122
+        },
+        "mistfall": {
+            "x": 624,
+            "y": 382
+        },
+        "neo-turku": {
+            "x": 296,
+            "y": 396
+        },
+        "neverness": {
+            "x": 311,
+            "y": 441
+        },
+        "nightfall": {
+            "x": 335,
+            "y": 513
+        },
+        "nightshelter": {
+            "x": 313,
+            "y": 451
+        },
+        "odessa": {
+            "x": 454,
+            "y": 504
+        },
+        "onyx-citadel": {
+            "x": 481,
+            "y": 344
+        },
+        "orathdur": {
+            "x": 529,
+            "y": 551
+        },
+        "orion": {
+            "x": 406,
+            "y": 517
+        },
+        "oulu": {
+            "x": 282,
+            "y": 453
+        },
+        "quintinity": {
+            "x": 657,
+            "y": 348
+        },
+        "redwall": {
+            "x": 325,
+            "y": 462
+        },
+        "riverfall": {
+            "x": 625,
+            "y": 81
+        },
+        "sacred-gardens": {
+            "x": 454,
+            "y": 516
+        },
+        "santillana": {
+            "x": 432,
+            "y": 512
+        },
+        "serpentkeep": {
+            "x": 592,
+            "y": 480
+        },
+        "shadarii": {
+            "x": 560,
+            "y": 517
+        },
+        "shangri-la": {
+            "x": 382,
+            "y": 302
+        },
+        "sincity": {
+            "x": 321,
+            "y": 494
+        },
+        "smithville": {
+            "x": 380,
+            "y": 538
+        },
+        "sumucity": {
+            "x": 519,
+            "y": 432
+        },
+        "tardis": {
+            "x": 581,
+            "y": 499
+        },
+        "texas": {
+            "x": 390,
+            "y": 542
+        },
+        "tormentia": {
+            "x": 510,
+            "y": 431
+        },
+        "transylvania": {
+            "x": 572,
+            "y": 426
+        },
+        "twilight": {
+            "x": 456,
+            "y": 568
+        },
+        "unconcerned": {
+            "x": 582,
+            "y": 213
+        },
+        "valhalla": {
+            "x": 466,
+            "y": 563
+        },
+        "void": {
+            "x": 305,
+            "y": 344
+        },
+        "whitehall": {
+            "x": 569,
+            "y": 670
+        },
+        "windspyre": {
+            "x": 508,
+            "y": 380
+        },
+        "zhamania": {
+            "x": 474,
+            "y": 484
         }
     },
     "desolathya": {
+        "calythien": {
+            "x": 285,
+            "y": 272
+        },
         "abandoned barn": {
-            "x": "194",
-            "y": "334"
+            "x": 194,
+            "y": 334
         },
         "ancient temple of gods": {
-            "x": "179",
-            "y": "472"
-        },
-        "apollo": {
-            "x": "127",
-            "y": "284"
+            "x": 179,
+            "y": 472
         },
         "ancient tower": {
-            "x": "382",
-            "y": "419"
+            "x": 382,
+            "y": 419
+        },
+        "apollo": {
+            "x": 127,
+            "y": 284
         },
         "bf barracks": {
-            "x": "507",
-            "y": "119"
+            "x": 507,
+            "y": 119
         },
         "bf castle": {
-            "x": "508",
-            "y": "118"
+            "x": 508,
+            "y": 118
         },
         "bf prison": {
-            "x": "511",
-            "y": "118"
+            "x": 511,
+            "y": 118
         },
         "bf seacrest": {
-            "x": "510",
-            "y": "120"
+            "x": 510,
+            "y": 120
         },
         "brimshire": {
-            "x": "239",
-            "y": "325"
-        },
-        "burning village": {
-            "x": "264",
-            "y": "275"
+            "x": 239,
+            "y": 325
         },
         "buckthorn valley": {
-            "x": "188",
-            "y": "387"
+            "x": 188,
+            "y": 387
+        },
+        "burning village": {
+            "x": 264,
+            "y": 275
         },
         "castle of toxic": {
-            "x": "368",
-            "y": "312"
-        },
-        "celestial caverns": {
-            "x": "388",
-            "y": "112"
+            "x": 368,
+            "y": 312
         },
         "caves of orac": {
-            "x": "302",
-            "y": "94"
+            "x": 302,
+            "y": 94
         },
-        "city calythien": {
-            "x": "285",
-            "y": "272"
-        },
-        "dalesmen": {
-            "x": "229",
-            "y": "153"
+        "celestial caverns": {
+            "x": 388,
+            "y": 112
         },
         "d'hregal mines": {
-            "x": "308",
-            "y": "279"
+            "x": 308,
+            "y": 279
         },
-        "deso-unknown #1 (closed)": {
-            "x": "163",
-            "y": "275"
+        "deso-unknown #1": {
+            "x": 163,
+            "y": 275
+        },
+        "dalesmen": {
+            "x": 229,
+            "y": 153
         },
         "dunamor": {
-            "x": "282",
-            "y": "45"
-        },
-        "followers of vanion": {
-            "x": "228",
-            "y": "294"
+            "x": 282,
+            "y": 45
         },
         "ferry\/hamlet of windham": {
-            "x": "430",
-            "y": "445"
+            "x": 430,
+            "y": 445
         },
-        "guild animist": {
-            "x": "328",
-            "y": "414"
-        },
-        "guild ghost liberators": {
-            "x": "238",
-            "y": "87"
-        },
-        "guild mage (acid)": {
-            "x": "48",
-            "y": "97"
-        },
-        "guild mage (inner circle)": {
-            "x": "37",
-            "y": "64"
-        },
-        "guild reavers": {
-            "x": "164",
-            "y": "435"
-        },
-        "guild tarmalen (spring)": {
-            "x": "306",
-            "y": "377"
-        },
-        "guild templar": {
-            "x": "403",
-            "y": "306"
-        },
-        "guild tiger (deso)": {
-            "x": "201",
-            "y": "153"
+        "followers of vanion": {
+            "x": 228,
+            "y": 294
         },
         "goblin farm": {
-            "x": "338",
-            "y": "368"
-        },
-        "guild loc: aelena": {
-            "x": "341",
-            "y": "467"
-        },
-        "guild tree navigators": {
-            "x": "79",
-            "y": "433"
-        },
-        "halls of the dead": {
-            "x": "258",
-            "y": "230"
+            "x": 338,
+            "y": 368
         },
         "hairikko forest": {
-            "x": "292",
-            "y": "388"
+            "x": 292,
+            "y": 388
+        },
+        "halls of the dead": {
+            "x": 258,
+            "y": 230
         },
         "jurkajef's tower": {
-            "x": "517",
-            "y": "120"
-        },
-        "monster midnight cavalier": {
-            "x": "102",
-            "y": "371"
+            "x": 517,
+            "y": 120
         },
         "magerathia": {
-            "x": "278",
-            "y": "211"
-        },
-        "millie's nightmare": {
-            "x": "194",
-            "y": "368"
-        },
-        "mythical valley": {
-            "x": "248",
-            "y": "385"
+            "x": 278,
+            "y": 211
         },
         "midnight carnival": {
-            "x": "202",
-            "y": "60"
+            "x": 202,
+            "y": 60
+        },
+        "millie's nightmare": {
+            "x": 194,
+            "y": 368
+        },
+        "mythical valley": {
+            "x": 248,
+            "y": 385
         },
         "nanagich village": {
-            "x": "478",
-            "y": "79"
+            "x": 478,
+            "y": 79
         },
         "ochimo": {
-            "x": "278",
-            "y": "307"
+            "x": 278,
+            "y": 307
         },
         "pier": {
-            "x": "309",
-            "y": "49"
+            "x": 309,
+            "y": 49
         },
         "ranger quest area": {
-            "x": "332",
-            "y": "351"
-        },
-        "ruins of el deagnoh": {
-            "x": "175",
-            "y": "221"
+            "x": 332,
+            "y": 351
         },
         "red tides village": {
-            "x": "27",
-            "y": "77"
+            "x": 27,
+            "y": 77
         },
-        "shrine gargoyle": {
-            "x": "230",
-            "y": "321"
-        },
-        "shrine gnoll": {
-            "x": "215",
-            "y": "444"
-        },
-        "shrine kobold": {
-            "x": "416",
-            "y": "278"
-        },
-        "shrine leech": {
-            "x": "32",
-            "y": "44"
-        },
-        "shrine lich": {
-            "x": "85",
-            "y": "464"
-        },
-        "shrine minotaur": {
-            "x": "473",
-            "y": "237"
-        },
-        "shrine ogre": {
-            "x": "179",
-            "y": "360"
-        },
-        "shrine shadow": {
-            "x": "341",
-            "y": "106"
-        },
-        "shrine skeleton": {
-            "x": "152",
-            "y": "473"
+        "ruins of el deagnoh": {
+            "x": 175,
+            "y": 221
         },
         "seabird inn": {
-            "x": "328",
-            "y": "328"
+            "x": 328,
+            "y": 328
         },
         "seashore tower": {
-            "x": "278",
-            "y": "35"
+            "x": 278,
+            "y": 35
         },
         "small well": {
-            "x": "480",
-            "y": "92"
-        },
-        "soy": {
-            "x": "166",
-            "y": "356"
-        },
-        "stone garden": {
-            "x": "491",
-            "y": "478"
-        },
-        "sunderland": {
-            "x": "243",
-            "y": "51"
+            "x": 480,
+            "y": 92
         },
         "snotling farm": {
-            "x": "473",
-            "y": "191"
+            "x": 473,
+            "y": 191
         },
-        "temple of all gods": {
-            "x": "220",
-            "y": "231"
+        "soy": {
+            "x": 166,
+            "y": 356
         },
-        "teywaer graveyard": {
-            "x": "458",
-            "y": "72"
+        "stone garden": {
+            "x": 491,
+            "y": 478
         },
-        "teywaer tunnel": {
-            "x": "403",
-            "y": "77"
-        },
-        "the warlock conclave": {
-            "x": "430",
-            "y": "424"
-        },
-        "tinmen monastery": {
-            "x": "404",
-            "y": "420"
-        },
-        "trainer barb (deso)": {
-            "x": "313",
-            "y": "292"
-        },
-        "trainer priest (deso)": {
-            "x": "262",
-            "y": "379"
-        },
-        "trainer ranger (deso)": {
-            "x": "296",
-            "y": "288"
+        "sunderland": {
+            "x": 243,
+            "y": 51
         },
         "tarackia": {
-            "x": "363",
-            "y": "459"
+            "x": 363,
+            "y": 459
+        },
+        "temple of all gods": {
+            "x": 220,
+            "y": 231
+        },
+        "teywaer graveyard": {
+            "x": 458,
+            "y": 72
+        },
+        "teywaer tunnel": {
+            "x": 403,
+            "y": 77
+        },
+        "the warlock conclave": {
+            "x": 430,
+            "y": 424
         },
         "tiburcio's tower": {
-            "x": "304",
-            "y": "305"
+            "x": 304,
+            "y": 305
+        },
+        "tinmen monastery": {
+            "x": 404,
+            "y": 420
         },
         "unholy cathedral": {
-            "x": "132",
-            "y": "192"
+            "x": 132,
+            "y": 192
         },
         "valley of silence": {
-            "x": "360",
-            "y": "371"
+            "x": 360,
+            "y": 371
         },
         "well": {
-            "x": "238",
-            "y": "113"
+            "x": 238,
+            "y": 113
         },
         "zorn": {
-            "x": "133",
-            "y": "266"
+            "x": 133,
+            "y": 266
+        },
+        "animist": {
+            "x": 328,
+            "y": 414
+        },
+        "ghost liberators": {
+            "x": 238,
+            "y": 87
+        },
+        "loc: aelena": {
+            "x": 341,
+            "y": 467
+        },
+        "mage (acid)": {
+            "x": 48,
+            "y": 97
+        },
+        "mage (inner circle)": {
+            "x": 37,
+            "y": 64
+        },
+        "reavers": {
+            "x": 164,
+            "y": 435
+        },
+        "tarmalen (spring)": {
+            "x": 306,
+            "y": 377
+        },
+        "templar": {
+            "x": 403,
+            "y": 306
+        },
+        "tiger (deso)": {
+            "x": 201,
+            "y": 153
+        },
+        "tree navigators": {
+            "x": 79,
+            "y": 433
+        },
+        "barb (deso)": {
+            "x": 313,
+            "y": 292
+        },
+        "priest (deso)": {
+            "x": 262,
+            "y": 379
+        },
+        "ranger (deso)": {
+            "x": 296,
+            "y": 288
+        },
+        "gargoyle": {
+            "x": 230,
+            "y": 321
+        },
+        "gnoll": {
+            "x": 215,
+            "y": 444
+        },
+        "kobold": {
+            "x": 416,
+            "y": 278
+        },
+        "leech": {
+            "x": 32,
+            "y": 44
+        },
+        "lich": {
+            "x": 85,
+            "y": 464
+        },
+        "minotaur": {
+            "x": 473,
+            "y": 237
+        },
+        "ogre": {
+            "x": 179,
+            "y": 360
+        },
+        "shadow": {
+            "x": 341,
+            "y": 106
+        },
+        "skeleton": {
+            "x": 152,
+            "y": 473
+        },
+        "midnight cavalier": {
+            "x": 102,
+            "y": 371
+        },
+        "camelot": {
+            "x": 416,
+            "y": 433
+        },
+        "daleshop": {
+            "x": 230,
+            "y": 144
+        },
+        "delvelinion": {
+            "x": 237,
+            "y": 126
+        },
+        "gehenna": {
+            "x": 243,
+            "y": 73
+        },
+        "harmony": {
+            "x": 238,
+            "y": 359
+        },
+        "highwater": {
+            "x": 298,
+            "y": 48
+        },
+        "isis": {
+            "x": 253,
+            "y": 204
+        },
+        "luostari": {
+            "x": 200,
+            "y": 209
+        },
+        "mausoleum": {
+            "x": 78,
+            "y": 449
+        },
+        "paradise": {
+            "x": 253,
+            "y": 298
+        },
+        "perilous": {
+            "x": 295,
+            "y": 64
+        },
+        "ravenloft": {
+            "x": 275,
+            "y": 183
+        },
+        "shadowspire": {
+            "x": 336,
+            "y": 97
+        },
+        "shire": {
+            "x": 27,
+            "y": 367
+        },
+        "silvermoon": {
+            "x": 241,
+            "y": 60
+        },
+        "sungate": {
+            "x": 352,
+            "y": 276
+        },
+        "tenebrae": {
+            "x": 421,
+            "y": 444
+        },
+        "theta": {
+            "x": 276,
+            "y": 242
+        },
+        "x": {
+            "x": 345,
+            "y": 337
+        }
+    },
+    "lucentium": {
+        "lorenchia": {
+            "x": 413,
+            "y": 153
+        },
+        "silver lake": {
+            "x": 540,
+            "y": 240
+        },
+        "a tale of two towers": {
+            "x": 338,
+            "y": 40
+        },
+        "afkadel-el-sha": {
+            "x": 87,
+            "y": 156
+        },
+        "anthill": {
+            "x": 342,
+            "y": 140
+        },
+        "astacia": {
+            "x": 295,
+            "y": 126
+        },
+        "brotherhood of sorcery": {
+            "x": 147,
+            "y": 374
+        },
+        "catfolk shipyard": {
+            "x": 336,
+            "y": 181
+        },
+        "catfolk tree": {
+            "x": 234,
+            "y": 151
+        },
+        "clouds above lor": {
+            "x": 357,
+            "y": 187
+        },
+        "coffee forest": {
+            "x": 432,
+            "y": 146
+        },
+        "colosseum": {
+            "x": 219,
+            "y": 88
+        },
+        "cornfields": {
+            "x": 392,
+            "y": 73
+        },
+        "creepy house": {
+            "x": 292,
+            "y": 268
+        },
+        "dah'bec": {
+            "x": 410,
+            "y": 92
+        },
+        "door to the past": {
+            "x": 400,
+            "y": 248
+        },
+        "draconian tower": {
+            "x": 392,
+            "y": 137
+        },
+        "duzelton": {
+            "x": 243,
+            "y": 195
+        },
+        "dwarf warehouse": {
+            "x": 134,
+            "y": 264
+        },
+        "earth tower": {
+            "x": 123,
+            "y": 288
+        },
+        "efiilas advance camp": {
+            "x": 402,
+            "y": 19
+        },
+        "ferry\/lucentium": {
+            "x": 397,
+            "y": 15
+        },
+        "fire tower": {
+            "x": 126,
+            "y": 291
+        },
+        "fraggle village": {
+            "x": 131,
+            "y": 195
+        },
+        "great central desert": {
+            "x": 99,
+            "y": 114
+        },
+        "harun-al-mar & harun-al-kor": {
+            "x": 79,
+            "y": 138
+        },
+        "ice tower": {
+            "x": 120,
+            "y": 291
+        },
+        "iron gate": {
+            "x": 285,
+            "y": 45
+        },
+        "jondalar's castle": {
+            "x": 535,
+            "y": 92
+        },
+        "kara-tur": {
+            "x": 49,
+            "y": 250
+        },
+        "kharim-el-main": {
+            "x": 95,
+            "y": 141
+        },
+        "kundar-el-alam": {
+            "x": 91,
+            "y": 132
+        },
+        "land of the overworld": {
+            "x": 431,
+            "y": 205
+        },
+        "lands of lore": {
+            "x": 411,
+            "y": 50
+        },
+        "lanzia": {
+            "x": 426,
+            "y": 81
+        },
+        "marble-sanded beach": {
+            "x": 373,
+            "y": 235
+        },
+        "mirror mine": {
+            "x": 144,
+            "y": 255
+        },
+        "oasis": {
+            "x": 113,
+            "y": 98
+        },
+        "obelisk": {
+            "x": 263,
+            "y": 59
+        },
+        "observatory foyer": {
+            "x": 393,
+            "y": 482
+        },
+        "oystria": {
+            "x": 441,
+            "y": 278
+        },
+        "paladin stronghold": {
+            "x": 446,
+            "y": 148
+        },
+        "public gardens": {
+            "x": 412,
+            "y": 137
+        },
+        "pyran": {
+            "x": 196,
+            "y": 305
+        },
+        "satyr forest": {
+            "x": 337,
+            "y": 114
+        },
+        "ship navigators": {
+            "x": 631,
+            "y": 97
+        },
+        "shipwreck": {
+            "x": 480,
+            "y": 156
+        },
+        "stagira": {
+            "x": 361,
+            "y": 116
+        },
+        "the lost pyramid": {
+            "x": 224,
+            "y": 45
+        },
+        "trilloch's tower": {
+            "x": 656,
+            "y": 139
+        },
+        "troglodyte hut": {
+            "x": 84,
+            "y": 262
+        },
+        "troglodyte village": {
+            "x": 87,
+            "y": 257
+        },
+        "underdark": {
+            "x": 382,
+            "y": 151
+        },
+        "valley of the kings": {
+            "x": 63,
+            "y": 148
+        },
+        "village of shrea": {
+            "x": 384,
+            "y": 99
+        },
+        "whirlpool": {
+            "x": 412,
+            "y": 204
+        },
+        "wind tower": {
+            "x": 123,
+            "y": 294
+        },
+        "alchemist": {
+            "x": 436,
+            "y": 151
+        },
+        "loc: tzarakk": {
+            "x": 407,
+            "y": 181
+        },
+        "mage (elec)": {
+            "x": 589,
+            "y": 398
+        },
+        "mage (poison)": {
+            "x": 266,
+            "y": 344
+        },
+        "monk": {
+            "x": 392,
+            "y": 148
+        },
+        "monk special (luc)": {
+            "x": 201,
+            "y": 456
+        },
+        "tarmalen (autumn)": {
+            "x": 262,
+            "y": 210
+        },
+        "tiger (luc)": {
+            "x": 370,
+            "y": 182
+        },
+        "barb (luc)": {
+            "x": 382,
+            "y": 153
+        },
+        "priest (luc)": {
+            "x": 250,
+            "y": 298
+        },
+        "ranger (luc)": {
+            "x": 411,
+            "y": 165
+        },
+        "catfolk": {
+            "x": 244,
+            "y": 136
+        },
+        "centaur": {
+            "x": 396,
+            "y": 42
+        },
+        "cromagnon": {
+            "x": 316,
+            "y": 254
+        },
+        "cyclops": {
+            "x": 332,
+            "y": 278
+        },
+        "lizardman": {
+            "x": 255,
+            "y": 101
+        },
+        "merfolk": {
+            "x": 542,
+            "y": 456
+        },
+        "satyr": {
+            "x": 335,
+            "y": 130
+        },
+        "thrikhren": {
+            "x": 393,
+            "y": 194
+        },
+        "titan": {
+            "x": 241,
+            "y": 227
+        },
+        "kirahvi+": {
+            "x": 363,
+            "y": 157
+        },
+        "jungle cavalier": {
+            "x": 215,
+            "y": 294
+        },
+        "actium": {
+            "x": 417,
+            "y": 126
+        },
+        "alliance": {
+            "x": 401,
+            "y": 143
+        },
+        "arcanum": {
+            "x": 303,
+            "y": 117
+        },
+        "asimyth": {
+            "x": 380,
+            "y": 160
+        },
+        "baron": {
+            "x": 360,
+            "y": 147
+        },
+        "bittercape": {
+            "x": 254,
+            "y": 195
+        },
+        "breakwater": {
+            "x": 409,
+            "y": 16
+        },
+        "carcassonne": {
+            "x": 233,
+            "y": 171
+        },
+        "castle-perilous": {
+            "x": 655,
+            "y": 406
+        },
+        "clockwork": {
+            "x": 328,
+            "y": 65
+        },
+        "conquest": {
+            "x": 298,
+            "y": 177
+        },
+        "copenhagen": {
+            "x": 424,
+            "y": 90
+        },
+        "corfinium": {
+            "x": 270,
+            "y": 187
+        },
+        "dawnhill": {
+            "x": 417,
+            "y": 63
+        },
+        "dementia": {
+            "x": 534,
+            "y": 475
+        },
+        "downtown": {
+            "x": 427,
+            "y": 154
+        },
+        "dune": {
+            "x": 78,
+            "y": 98
+        },
+        "elanthia": {
+            "x": 283,
+            "y": 138
+        },
+        "hoven": {
+            "x": 144,
+            "y": 186
+        },
+        "iirimameoi": {
+            "x": 389,
+            "y": 87
+        },
+        "illusia": {
+            "x": 146,
+            "y": 203
+        },
+        "inferno": {
+            "x": 417,
+            "y": 103
+        },
+        "kanemouke": {
+            "x": 411,
+            "y": 41
+        },
+        "kittencity": {
+            "x": 397,
+            "y": 25
+        },
+        "moseisley": {
+            "x": 353,
+            "y": 104
+        },
+        "nekropolis": {
+            "x": 36,
+            "y": 199
+        },
+        "norsunluutorni": {
+            "x": 428,
+            "y": 193
+        },
+        "pluto": {
+            "x": 338,
+            "y": 301
+        },
+        "providence": {
+            "x": 262,
+            "y": 172
+        },
+        "ravensflyte": {
+            "x": 314,
+            "y": 137
+        },
+        "shadowdale": {
+            "x": 352,
+            "y": 132
+        },
+        "skywatch": {
+            "x": 337,
+            "y": 231
+        },
+        "stormhold": {
+            "x": 154,
+            "y": 327
+        },
+        "sumuland": {
+            "x": 405,
+            "y": 70
+        },
+        "tarkubaz": {
+            "x": 337,
+            "y": 193
+        },
+        "twigaland": {
+            "x": 395,
+            "y": 97
+        },
+        "tylarr-farms": {
+            "x": 260,
+            "y": 141
+        },
+        "valimar": {
+            "x": 217,
+            "y": 161
+        },
+        "wayrest": {
+            "x": 342,
+            "y": 421
+        },
+        "wildboars": {
+            "x": 58,
+            "y": 135
+        },
+        "zircus": {
+            "x": 242,
+            "y": 180
+        },
+        "zithroland": {
+            "x": 402,
+            "y": 55
+        }
+    },
+    "furnachia": {
+        "rilynt'tar": {
+            "x": 197,
+            "y": 85
+        },
+        "9th plane of hell": {
+            "x": 130,
+            "y": 248
+        },
+        "are fortress (east)": {
+            "x": 333,
+            "y": 260
+        },
+        "are fortress (south)": {
+            "x": 250,
+            "y": 430
+        },
+        "are fortress (west)": {
+            "x": 68,
+            "y": 259
+        },
+        "abandoned house": {
+            "x": 299,
+            "y": 112
+        },
+        "abandoned temple": {
+            "x": 135,
+            "y": 204
+        },
+        "abandoned village": {
+            "x": 141,
+            "y": 159
+        },
+        "ancona manor": {
+            "x": 189,
+            "y": 88
+        },
+        "atlantis": {
+            "x": 68,
+            "y": 459
+        },
+        "black marble altar": {
+            "x": 158,
+            "y": 205
+        },
+        "cartwheel": {
+            "x": 192,
+            "y": 143
+        },
+        "castle brantis": {
+            "x": 119,
+            "y": 168
+        },
+        "castle firefox": {
+            "x": 417,
+            "y": 174
+        },
+        "corabandor": {
+            "x": 297,
+            "y": 299
+        },
+        "darkwood": {
+            "x": 176,
+            "y": 161
+        },
+        "domgroth's mansion": {
+            "x": 220,
+            "y": 95
+        },
+        "drow tower": {
+            "x": 199,
+            "y": 81
+        },
+        "elven outpost": {
+            "x": 165,
+            "y": 10
+        },
+        "enchanted forest": {
+            "x": 166,
+            "y": 244
+        },
+        "ferry\/furnachia": {
+            "x": 190,
+            "y": 81
+        },
+        "forest of the moon": {
+            "x": 167,
+            "y": 168
+        },
+        "haunted mansion": {
+            "x": 187,
+            "y": 116
+        },
+        "jungle cave": {
+            "x": 251,
+            "y": 346
+        },
+        "kutanakor east": {
+            "x": 171,
+            "y": 236
+        },
+        "kutanakor west": {
+            "x": 131,
+            "y": 236
+        },
+        "ndoki": {
+            "x": 168,
+            "y": 331
+        },
+        "necromancer's swamp": {
+            "x": 270,
+            "y": 135
+        },
+        "nocilis valley": {
+            "x": 200,
+            "y": 201
+        },
+        "old fort": {
+            "x": 77,
+            "y": 269
+        },
+        "orc samurai": {
+            "x": 209,
+            "y": 95
+        },
+        "orthanc": {
+            "x": 310,
+            "y": 220
+        },
+        "perin's": {
+            "x": 272,
+            "y": 175
+        },
+        "plakhstan": {
+            "x": 327,
+            "y": 127
+        },
+        "priest guild special place": {
+            "x": 298,
+            "y": 336
+        },
+        "rillion's castle": {
+            "x": 301,
+            "y": 185
+        },
+        "rounce": {
+            "x": 76,
+            "y": 108
+        },
+        "secret jungle": {
+            "x": 321,
+            "y": 339
+        },
+        "steaming cavern": {
+            "x": 397,
+            "y": 304
+        },
+        "temple of aljerak": {
+            "x": 279,
+            "y": 214
+        },
+        "temple of chaos": {
+            "x": 220,
+            "y": 107
+        },
+        "temple of the twisted prophecies": {
+            "x": 98,
+            "y": 205
+        },
+        "trilloch zoo": {
+            "x": 177,
+            "y": 297
+        },
+        "under volcano": {
+            "x": 214,
+            "y": 155
+        },
+        "volcano": {
+            "x": 289,
+            "y": 146
+        },
+        "wanderer maze": {
+            "x": 312,
+            "y": 237
+        },
+        "zonni swamp": {
+            "x": 143,
+            "y": 305
+        },
+        "lord of chaos": {
+            "x": 205,
+            "y": 120
+        },
+        "mage (fire)": {
+            "x": 405,
+            "y": 308
+        },
+        "monk special (furn)": {
+            "x": 223,
+            "y": 234
+        },
+        "wanderers": {
+            "x": 311,
+            "y": 242
+        },
+        "barb (furn)": {
+            "x": 200,
+            "y": 118
+        },
+        "monk (furn)": {
+            "x": 195,
+            "y": 104
+        },
+        "ranger (furn)": {
+            "x": 204,
+            "y": 95
+        },
+        "animist totem (furn)": {
+            "x": 143,
+            "y": 161
+        },
+        "barsoomian": {
+            "x": 258,
+            "y": 394
+        },
+        "demon": {
+            "x": 200,
+            "y": 235
+        },
+        "doppelganger": {
+            "x": 43,
+            "y": 172
+        },
+        "draconian": {
+            "x": 364,
+            "y": 62
+        },
+        "drow": {
+            "x": 132,
+            "y": 241
+        },
+        "duergar": {
+            "x": 221,
+            "y": 202
+        },
+        "orc": {
+            "x": 325,
+            "y": 173
+        },
+        "spider #1": {
+            "x": 288,
+            "y": 180
+        },
+        "spider #2": {
+            "x": 182,
+            "y": 149
+        },
+        "spider #3": {
+            "x": 172,
+            "y": 300
+        },
+        "spider #4": {
+            "x": 74,
+            "y": 94
+        },
+        "spider #5": {
+            "x": 230,
+            "y": 234
+        },
+        "spider #6": {
+            "x": 49,
+            "y": 477
+        },
+        "spider #7": {
+            "x": 98,
+            "y": 370
+        },
+        "spider #8": {
+            "x": 338,
+            "y": 348
+        },
+        "troll": {
+            "x": 297,
+            "y": 231
+        },
+        "vampire": {
+            "x": 333,
+            "y": 193
+        },
+        "badlands cavalier": {
+            "x": 277,
+            "y": 123
         }
     },
     "rothikgen": {
+        "shadowkeep": {
+            "x": 224,
+            "y": 271
+        },
         "abandoned study": {
-            "x": "213",
-            "y": "124"
+            "x": 213,
+            "y": 124
         },
         "ackbar's quest": {
-            "x": "346",
-            "y": "296"
-        },
-        "anaconda ruins": {
-            "x": "332",
-            "y": "405"
+            "x": 346,
+            "y": 296
         },
         "amberley mansion": {
-            "x": "220",
-            "y": "345"
+            "x": 220,
+            "y": 345
+        },
+        "anaconda ruins": {
+            "x": 332,
+            "y": 405
         },
         "barbarian arena": {
-            "x": "277",
-            "y": "131"
+            "x": 277,
+            "y": 131
         },
         "battlefield": {
-            "x": "186",
-            "y": "311"
+            "x": 186,
+            "y": 311
         },
         "beaumont hamel": {
-            "x": "145",
-            "y": "185"
+            "x": 145,
+            "y": 185
         },
         "campsite": {
-            "x": "227",
-            "y": "139"
+            "x": 227,
+            "y": 139
+        },
+        "castle severus": {
+            "x": 115,
+            "y": 216
         },
         "castle of lord drauron": {
-            "x": "185",
-            "y": "306"
+            "x": 185,
+            "y": 306
         },
         "cavern": {
-            "x": "186",
-            "y": "315"
+            "x": 186,
+            "y": 315
         },
         "caverns of chaos": {
-            "x": "385",
-            "y": "250"
+            "x": 385,
+            "y": 250
         },
         "cevi village": {
-            "x": "233",
-            "y": "128"
-        },
-        "city shadowkeep": {
-            "x": "224",
-            "y": "271"
-        },
-        "drugstore shack": {
-            "x": "356",
-            "y": "269"
+            "x": 233,
+            "y": 128
         },
         "dark forest": {
-            "x": "306",
-            "y": "161"
+            "x": 306,
+            "y": 161
         },
         "donaru": {
-            "x": "344",
-            "y": "382"
+            "x": 344,
+            "y": 382
+        },
+        "drugstore shack": {
+            "x": 356,
+            "y": 269
         },
         "encampment1": {
-            "x": "185",
-            "y": "309"
+            "x": 185,
+            "y": 309
         },
         "encampment2": {
-            "x": "187",
-            "y": "313"
+            "x": 187,
+            "y": 313
         },
         "evil vale": {
-            "x": "141",
-            "y": "113"
-        },
-        "forest in the valley": {
-            "x": "398",
-            "y": "285"
+            "x": 141,
+            "y": 113
         },
         "ferry\/rothikgen": {
-            "x": "265",
-            "y": "430"
+            "x": 265,
+            "y": 430
         },
-        "guild barbarian": {
-            "x": "370",
-            "y": "244"
-        },
-        "guild beastmaster": {
-            "x": "128",
-            "y": "169"
-        },
-        "guild mage (asphyx)": {
-            "x": "84",
-            "y": "396"
-        },
-        "guild mage (cold)": {
-            "x": "297",
-            "y": "72"
-        },
-        "guild navigator": {
-            "x": "340",
-            "y": "273"
-        },
-        "guild nun": {
-            "x": "248",
-            "y": "255"
-        },
-        "guild psionicist": {
-            "x": "168",
-            "y": "281"
-        },
-        "guild tarmalen (winter)": {
-            "x": "149",
-            "y": "108"
-        },
-        "guild tiger (roth)": {
-            "x": "236",
-            "y": "348"
-        },
-        "guild loc: kharim": {
-            "x": "257",
-            "y": "233"
-        },
-        "guild monk special (roth)": {
-            "x": "277",
-            "y": "283"
-        },
-        "guild riftwalker cave": {
-            "x": "163",
-            "y": "225"
+        "forest in the valley": {
+            "x": 398,
+            "y": 285
         },
         "giant killers": {
-            "x": "28",
-            "y": "399"
-        },
-        "harazam tower": {
-            "x": "396",
-            "y": "255"
-        },
-        "hill giants": {
-            "x": "246",
-            "y": "84"
-        },
-        "horn-durath": {
-            "x": "221",
-            "y": "265"
+            "x": 28,
+            "y": 399
         },
         "hack": {
-            "x": "313",
-            "y": "324"
+            "x": 313,
+            "y": 324
+        },
+        "harazam tower": {
+            "x": 396,
+            "y": 255
         },
         "hell's dojo": {
-            "x": "163",
-            "y": "69"
+            "x": 163,
+            "y": 69
+        },
+        "hill giants": {
+            "x": 246,
+            "y": 84
+        },
+        "horn-durath": {
+            "x": 221,
+            "y": 265
         },
         "horsehead mountain": {
-            "x": "380",
-            "y": "203"
+            "x": 380,
+            "y": 203
         },
         "ice castle": {
-            "x": "453",
-            "y": "31"
+            "x": 453,
+            "y": 31
         },
         "inn of the four winds": {
-            "x": "295",
-            "y": "384"
-        },
-        "kath'vael forest": {
-            "x": "231",
-            "y": "261"
-        },
-        "kintril church": {
-            "x": "420",
-            "y": "261"
-        },
-        "king eowyn's land": {
-            "x": "220",
-            "y": "148"
+            "x": 295,
+            "y": 384
         },
         "kalevala": {
-            "x": "104",
-            "y": "100"
+            "x": 104,
+            "y": 100
+        },
+        "kath'vael forest": {
+            "x": 231,
+            "y": 261
+        },
+        "king eowyn's land": {
+            "x": 220,
+            "y": 148
+        },
+        "kintril church": {
+            "x": 420,
+            "y": 261
         },
         "lighthouse": {
-            "x": "133",
-            "y": "452"
+            "x": 133,
+            "y": 452
         },
         "lonely mountain": {
-            "x": "148",
-            "y": "51"
-        },
-        "monster skyrider cavalier": {
-            "x": "246",
-            "y": "45"
+            "x": 148,
+            "y": 51
         },
         "marble shrine(?)": {
-            "x": "252",
-            "y": "334"
+            "x": 252,
+            "y": 334
         },
         "mirkhold": {
-            "x": "321",
-            "y": "220"
+            "x": 321,
+            "y": 220
         },
         "moongate": {
-            "x": "353",
-            "y": "200"
+            "x": 353,
+            "y": 200
         },
         "mushroom hill": {
-            "x": "166",
-            "y": "198"
-        },
-        "monster athanel": {
-            "x": "437",
-            "y": "219"
-        },
-        "monster bufloogh": {
-            "x": "395",
-            "y": "254"
-        },
-        "monster cyclon": {
-            "x": "423",
-            "y": "239"
-        },
-        "monster goathead": {
-            "x": "397",
-            "y": "236"
-        },
-        "monster red hawk": {
-            "x": "399",
-            "y": "264"
-        },
-        "monster silver": {
-            "x": "376",
-            "y": "260"
+            "x": 166,
+            "y": 198
         },
         "navigator maze": {
-            "x": "352",
-            "y": "269"
+            "x": 352,
+            "y": 269
         },
         "noran's attic": {
-            "x": "340",
-            "y": "398"
-        },
-        "norse village": {
-            "x": "425",
-            "y": "231"
-        },
-        "nun maze (nw)": {
-            "x": "258",
-            "y": "255"
+            "x": 340,
+            "y": 398
         },
         "norse cave": {
-            "x": "386",
-            "y": "184"
+            "x": 386,
+            "y": 184
         },
-        "old forest": {
-            "x": "240",
-            "y": "330"
+        "norse village": {
+            "x": 425,
+            "y": 231
+        },
+        "nun maze (nw)": {
+            "x": 258,
+            "y": 255
         },
         "old copper mine": {
-            "x": "76",
-            "y": "158"
+            "x": 76,
+            "y": 158
+        },
+        "old forest": {
+            "x": 240,
+            "y": 330
         },
         "pauper's castle": {
-            "x": "62",
-            "y": "315"
+            "x": 62,
+            "y": 315
         },
         "perilous forest": {
-            "x": "319",
-            "y": "396"
+            "x": 319,
+            "y": 396
+        },
+        "plateau of tsang": {
+            "x": 336,
+            "y": 102
         },
         "psi quest area": {
-            "x": "200",
-            "y": "270"
+            "x": 200,
+            "y": 270
         },
-        "plateau of tsang (closed)": {
-            "x": "336",
-            "y": "102"
-        },
-        "ruins of unta'r trinit": {
-            "x": "428",
-            "y": "213"
-        },
-        "roth-unknown #1 (closed)": {
-            "x": "398",
-            "y": "340"
+        "roth-unknown #1": {
+            "x": 398,
+            "y": 340
         },
         "rendburg": {
-            "x": "222",
-            "y": "71"
+            "x": 222,
+            "y": 71
         },
-        "shrine brownie": {
-            "x": "77",
-            "y": "372"
-        },
-        "shrine duck": {
-            "x": "137",
-            "y": "148"
-        },
-        "shrine giant": {
-            "x": "331",
-            "y": "123"
-        },
-        "shrine gnome": {
-            "x": "327",
-            "y": "264"
-        },
-        "shrine moomin": {
-            "x": "269",
-            "y": "314"
-        },
-        "shrine penguin": {
-            "x": "338",
-            "y": "71"
-        },
-        "shrine valar": {
-            "x": "237",
-            "y": "246"
-        },
-        "shrine wolfman": {
-            "x": "103",
-            "y": "201"
-        },
-        "ss swe+": {
-            "x": "227",
-            "y": "260"
+        "ruins of unta'r trinit": {
+            "x": 428,
+            "y": 213
         },
         "smurville": {
-            "x": "218",
-            "y": "255"
+            "x": 218,
+            "y": 255
         },
         "snow peaked mountain": {
-            "x": "158",
-            "y": "147"
-        },
-        "spider cave": {
-            "x": "392",
-            "y": "294"
+            "x": 158,
+            "y": 147
         },
         "snow devils": {
-            "x": "257",
-            "y": "245"
+            "x": 257,
+            "y": 245
+        },
+        "spider cave": {
+            "x": 392,
+            "y": 294
         },
         "stonehenge": {
-            "x": "358",
-            "y": "186"
-        },
-        "trader's house": {
-            "x": "286",
-            "y": "107"
-        },
-        "trainer priest (roth)": {
-            "x": "170",
-            "y": "195"
-        },
-        "trainer ranger (roth)": {
-            "x": "218",
-            "y": "285"
+            "x": 358,
+            "y": 186
         },
         "taiga": {
-            "x": "288",
-            "y": "60"
+            "x": 288,
+            "y": 60
+        },
+        "trader's house": {
+            "x": 286,
+            "y": 107
         },
         "village of aldor": {
-            "x": "84",
-            "y": "112"
+            "x": 84,
+            "y": 112
         },
         "wormhole": {
-            "x": "412",
-            "y": "243"
-        }
-    },
-    "special": {
-        "club sarnath": {
-            "x": 0,
-            "y": 0
+            "x": 412,
+            "y": 243
         },
-        "city e'siris": {
-            "x": 0,
-            "y": 0
+        "barbarian": {
+            "x": 370,
+            "y": 244
         },
-        "nithem's dungeon": {
-            "x": 0,
-            "y": 0
+        "beastmaster": {
+            "x": 128,
+            "y": 169
         },
-        "paladin temple": {
-            "x": 0,
-            "y": 0
+        "loc: kharim": {
+            "x": 257,
+            "y": 233
         },
-        "wildspace": {
-            "x": 0,
-            "y": 0
+        "mage (asphyx)": {
+            "x": 84,
+            "y": 396
+        },
+        "mage (cold)": {
+            "x": 297,
+            "y": 72
+        },
+        "monk special (roth)": {
+            "x": 277,
+            "y": 283
+        },
+        "navigator": {
+            "x": 340,
+            "y": 273
+        },
+        "nun": {
+            "x": 248,
+            "y": 255
+        },
+        "psionicist": {
+            "x": 168,
+            "y": 281
+        },
+        "riftwalker cave": {
+            "x": 163,
+            "y": 225
+        },
+        "tarmalen (winter)": {
+            "x": 149,
+            "y": 108
+        },
+        "tiger (roth)": {
+            "x": 236,
+            "y": 348
+        },
+        "priest (roth)": {
+            "x": 170,
+            "y": 195
+        },
+        "ranger (roth)": {
+            "x": 218,
+            "y": 285
+        },
+        "brownie": {
+            "x": 77,
+            "y": 372
+        },
+        "duck": {
+            "x": 137,
+            "y": 148
+        },
+        "giant": {
+            "x": 331,
+            "y": 123
+        },
+        "gnome": {
+            "x": 327,
+            "y": 264
+        },
+        "moomin": {
+            "x": 269,
+            "y": 314
+        },
+        "penguin": {
+            "x": 338,
+            "y": 71
+        },
+        "valar": {
+            "x": 237,
+            "y": 246
+        },
+        "wolfman": {
+            "x": 103,
+            "y": 201
+        },
+        "swe+": {
+            "x": 227,
+            "y": 260
+        },
+        "athanel": {
+            "x": 437,
+            "y": 219
+        },
+        "bufloogh": {
+            "x": 395,
+            "y": 254
+        },
+        "cyclon": {
+            "x": 423,
+            "y": 239
+        },
+        "goathead": {
+            "x": 397,
+            "y": 236
+        },
+        "red hawk": {
+            "x": 399,
+            "y": 264
+        },
+        "silver": {
+            "x": 376,
+            "y": 260
+        },
+        "skyrider cavalier": {
+            "x": 246,
+            "y": 45
+        },
+        "atlantis": {
+            "x": 219,
+            "y": 308
+        },
+        "batdiamondinc": {
+            "x": 282,
+            "y": 207
+        },
+        "bullerbyn": {
+            "x": 236,
+            "y": 231
+        },
+        "castle-ewige": {
+            "x": 35,
+            "y": 372
+        },
+        "compton": {
+            "x": 386,
+            "y": 268
+        },
+        "crabfroth": {
+            "x": 149,
+            "y": 249
+        },
+        "darkvale": {
+            "x": 262,
+            "y": 160
+        },
+        "darkwoods": {
+            "x": 301,
+            "y": 220
+        },
+        "deimos": {
+            "x": 236,
+            "y": 243
+        },
+        "dentistador": {
+            "x": 183,
+            "y": 293
+        },
+        "destiny": {
+            "x": 318,
+            "y": 384
+        },
+        "dragonsleap": {
+            "x": 210,
+            "y": 288
+        },
+        "fevre": {
+            "x": 371,
+            "y": 123
+        },
+        "giza-plateau": {
+            "x": 243,
+            "y": 302
+        },
+        "gomorra": {
+            "x": 334,
+            "y": 385
+        },
+        "hayhead": {
+            "x": 304,
+            "y": 381
+        },
+        "highwood": {
+            "x": 287,
+            "y": 259
+        },
+        "huntingcamp": {
+            "x": 235,
+            "y": 271
+        },
+        "ithilien": {
+            "x": 74,
+            "y": 86
+        },
+        "junkyard": {
+            "x": 175,
+            "y": 317
+        },
+        "kauhajoki": {
+            "x": 240,
+            "y": 363
+        },
+        "kelly": {
+            "x": 206,
+            "y": 246
+        },
+        "kostovalikapale": {
+            "x": 270,
+            "y": 232
+        },
+        "loserville": {
+            "x": 227,
+            "y": 317
+        },
+        "manadrain": {
+            "x": 246,
+            "y": 241
+        },
+        "mossad": {
+            "x": 423,
+            "y": 134
+        },
+        "nampa": {
+            "x": 253,
+            "y": 438
+        },
+        "nieuw-amsterdam": {
+            "x": 175,
+            "y": 269
+        },
+        "nitroplut": {
+            "x": 244,
+            "y": 140
+        },
+        "otieno": {
+            "x": 168,
+            "y": 290
+        },
+        "pielavesj": {
+            "x": 369,
+            "y": 55
+        },
+        "rautasaari": {
+            "x": 201,
+            "y": 168
+        },
+        "revalanneva": {
+            "x": 336,
+            "y": 250
+        },
+        "rivendell": {
+            "x": 353,
+            "y": 258
+        },
+        "sepulchre": {
+            "x": 275,
+            "y": 250
+        },
+        "teamonetwenty": {
+            "x": 210,
+            "y": 265
+        },
+        "thalarion": {
+            "x": 405,
+            "y": 214
+        },
+        "tortuga": {
+            "x": 110,
+            "y": 187
+        },
+        "valgerville": {
+            "x": 227,
+            "y": 329
+        },
+        "wihneland": {
+            "x": 201,
+            "y": 261
+        },
+        "xanadu": {
+            "x": 261,
+            "y": 281
+        },
+        "xian": {
+            "x": 122,
+            "y": 50
         }
     },
     "renardy": {
         "renardy harbour": {
-            "x": "47",
-            "y": "36"
+            "x": 47,
+            "y": 36
         },
         "st. patric's abbey": {
-            "x": "20",
-            "y": "21"
+            "x": 20,
+            "y": 21
         }
     }
 }

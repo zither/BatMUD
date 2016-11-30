@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.0"><AliasPackage>
+        <AliasGroup isActive="yes" isFolder="yes">
+            <name>channels</name>
+            <script/>
+            <command/>
+            <packageName>channels</packageName>
+            <regex/>
+            <Alias isActive="yes" isFolder="no">
+                <name>hide</name>
+                <script>if menu then
+	menu.container:hide()
+end</script>
+                <command/>
+                <packageName/>
+                <regex>^hide channels$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>show</name>
+                <script>if menu then
+	menu.container:show()
+end</script>
+                <command/>
+                <packageName/>
+                <regex>^show channels$</regex>
+            </Alias>
+        </AliasGroup>
+    </AliasPackage><TriggerPackage>
+        <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <name>channels</name>
+            <script/>
+            <triggerType>0</triggerType>
+            <conditonLineDelta>0</conditonLineDelta>
+            <mStayOpen>0</mStayOpen>
+            <mCommand/>
+            <packageName>channels</packageName>
+            <mFgColor>#ff0000</mFgColor>
+            <mBgColor>#ffff00</mBgColor>
+            <mSoundFile/>
+            <colorTriggerFgColor>#000000</colorTriggerFgColor>
+            <colorTriggerBgColor>#000000</colorTriggerBgColor>
+            <regexCodeList/>
+            <regexCodePropertyList/>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>tellLine</name>
+                <script>selectCurrentLine()
+local r, g, b = getFgColor()
+if r == 255 and g == 255 and b == 255 then
+	copy()
+	appendBuffer(menu["tellcenter"].name)
+	appendBuffer(menu["allcenter"].name)
+end
+</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand/>
+                <packageName/>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile/>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^\w+ tells you '.+$</string>
+                    <string>^Ghost of \w+ tells you '.+$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>channelLine</name>
+                <script>selectCurrentLine()
+menu.channel = matches[3]
+for k, v in pairs(menu.tabs) do
+	if v == matches[3] then
+		copy()
+		appendBuffer(menu[v .. "center"].name)
+		appendBuffer(menu["allcenter"].name)
+		return
+	end
+end
+</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand/>
+                <packageName/>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile/>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^(?:\[\d+:\d+\]:)?([a-zA-Z\s]+) [\[\{&lt;\(](\w+)[\]\}&gt;\)]: .+$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+        </TriggerGroup>
+    </TriggerPackage><ScriptPackage>
+        <Script isActive="yes" isFolder="no">
+            <name>channels</name>
+            <packageName/>
+            <script>menuSettings = {
+  	tabs = {"all", "tell", "sales", "party", "wanted", "ghost", "newbie", "tarmalen"}, -- channel list
+	defaultTab = "all", tabHeight = 10, -- percent
+  	width = "40%", height = "40%", -- window size
+	positionX = "55%", positionY = "1%", -- window position
+	fontSize = 9, -- font size
+}
+
+--- DO NOT MODIFY BELOW HERE ---
+
+menu = menu or {
+  	tabs = menuSettings.tabs,
+  	width = menuSettings.width, height = menuSettings.height,
+  	color1 = "rgb(0,0,70)",
+  	color2 = "rgb(3,3,3)",
+	color3 = "rgb(30,30,30)",
+  	current = "all",
+}
+
+function menu.setCurrent(tab) 
+  	menu.current = tab
+ 	menu[menu.current .."tab"]:setStyleSheet([[
+   		background-color: ]] .. menu.color3 ..[[;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+    	margin-right: 1px;
+    	margin-left: 1px;
+  	]])
+  	menu[menu.current]:show()
+end
+
+function menu.click(tab)	
+  	menu[menu.current]:hide()
+ 	menu[menu.current .."tab"]:setStyleSheet([[
+   		background-color: ]] .. menu.color1 ..[[;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+    	margin-right: 1px;
+    	margin-left: 1px;
+  	]])
+	menu.setCurrent(tab)
+end
+
+menu.container = Geyser.Container:new({
+  	name = "menu.back",
+	x = menuSettings.positionX, y = menuSettings.positionY,
+  	width = menu.width,
+  	height = menu.height,
+},main)
+
+menu.header = Geyser.HBox:new({
+  name = "menu.header",
+  x = 0, y = 0,
+  width = "100%",
+  height = string.format("%d%%", menuSettings.tabHeight),
+},menu.container)
+
+menu.footer = Geyser.Label:new({
+  name = "menu.footer",
+  x = 0, y = string.format("%d%%", menuSettings.tabHeight),
+  width = "100%",
+  height = string.format("%d%%", 100 - menuSettings.tabHeight),
+},menu.container)
+
+menu.center = Geyser.Label:new({
+  name = "menu.center",
+  x = 0, y = 0,
+  width = "100%",
+  height = "100%",
+},menu.footer)
+
+menu.center:setStyleSheet([[
+  background-color: ]]..menu.color2..[[;
+  border-radius: 0px;
+  margin: 3px;
+]])
+
+for k,v in pairs(menu.tabs) do
+	menu[v.."tab"] = Geyser.Label:new({
+   		name = "menu."..v.."tab",
+  	},menu.header)
+
+ 	menu[v.."tab"]:setStyleSheet([[
+   		background-color: ]] .. menu.color1 ..[[;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+    	margin-right: 1px;
+    	margin-left: 1px;
+  	]])
+	menu[v .. "tab"]:echo("&lt;center&gt;" .. v)
+	menu[v .. "tab"]:setClickCallback("menu.click", v)
+
+ 	menu[v] = Geyser.Label:new({
+    	name = "menu."..v,
+    	x = "1%", y = "1%",
+    	width = "98%",
+    	height = "98%",
+  	},menu.footer)
+
+  	menu[v]:setStyleSheet([[
+    	background-color: ]]..menu.color2..[[;
+    	border-bottom-left-radius: 10px;
+    	border-bottom-right-radius: 10px;
+		qproperty-wordWrap: true;
+  	]])
+
+	menu[v.."center"] = Geyser.MiniConsole:new({
+  		name = v .. "center",
+  		x=0, y=0,
+  		width="100%", height="100%",
+	},menu[v])
+
+	menu[v.."center"]:setColor("black") 
+	menu[v.."center"]:setFontSize(menuSettings.fontSize) 
+	local wrapAt = math.floor(menu[v.."center"].get_width()) / calcFontSize(menu[v.."center"].fontSize)
+	menu[v.."center"]:setWrap(wrapAt)
+
+ 	menu[v]:hide()
+end
+
+menu.setCurrent(menuSettings.defaultTab)</script>
+            <eventHandlerList/>
+        </Script>
+    </ScriptPackage></MudletPackage>
